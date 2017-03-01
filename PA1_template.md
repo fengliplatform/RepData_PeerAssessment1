@@ -5,7 +5,6 @@
 This Rmd file should be placed with activity.zip file so it runs properly.
 
 ```r
-setwd("~/course/ds_coursera/course5/project1/RepData_PeerAssessment1")
 unzip("activity.zip")
 df <- read.csv("activity.csv", header=TRUE, na.strings="NA")
 str(df)

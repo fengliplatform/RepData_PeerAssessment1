@@ -123,8 +123,7 @@ $(document).ready(function () {
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
 <p>This Rmd file should be placed with activity.zip file so it runs properly.</p>
-<pre class="r"><code>setwd(&quot;~/course/ds_coursera/course5/project1/RepData_PeerAssessment1&quot;)
-unzip(&quot;activity.zip&quot;)
+<pre class="r"><code>unzip(&quot;activity.zip&quot;)
 df &lt;- read.csv(&quot;activity.csv&quot;, header=TRUE, na.strings=&quot;NA&quot;)
 str(df)</code></pre>
 <pre><code>## 'data.frame':    17568 obs. of  3 variables:
